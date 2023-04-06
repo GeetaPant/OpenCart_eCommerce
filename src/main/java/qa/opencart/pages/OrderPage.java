@@ -8,4 +8,7 @@ public class OrderPage {
 	private WebDriver driver;
 	private By location  =  By.id("Location");
 	
+	public void getOrderDetails() {
+		System.out.println(" for test");
+	}
 }
